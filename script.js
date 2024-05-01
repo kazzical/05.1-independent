@@ -8,7 +8,10 @@ In this assignment, you'll create a shopping list using arrays and practice mani
 3. Log the shoppingList array to the console.
 4. Use the length property to find the number of items in your shoppingList, and log the result to the console.*/
 
-// Write your code below this line
+let shoppingList = [];
+shoppingList.push("pen", "bag", "pencil", "wood", "notebook");
+console.log(shoppingList);
+shoppingList.length;
 
 /*Part 2: Modifying the Shopping List
 
@@ -19,7 +22,11 @@ In this assignment, you'll create a shopping list using arrays and practice mani
 5. Use the shift() method to remove the first item from your shoppingList.
 6. Log the updated shoppingList array to the console.*/
 
-// Write your code below this line
+shoppingList.pop();
+console.log(shoppingList);
+shoppingList.unshift("hammer");
+console.log(shoppingList);
+shoppingList.shift();
 
 
 /*Bonus:
